@@ -1,0 +1,66 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 5px rgb(1, 253, 1);
+    padding: 30px;
+    font-size: 42px;
+    color: rgb(5, 240, 5);
+    font-family: "Bungee", sans-serif;
+}
+
+.chamada {
+    background: rgb(4, 218, 4);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+    font-family:"Luckiest Guy", cursive;
+    font-weight: 10;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+img{
+    height: 200;
+}
+
+.categoria-videos {
+display: flex;
+overflow-x: auto;
+gap: 20px;
+}
+
+.categoria {
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover{
+opacity: 1.0;
+}
+
+.categoria h2{
+    color: rgb(1, 253, 1);
+}
